@@ -1,0 +1,52 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="VIS/dist/vis.js"></script>
+      <link href="VIS/dist/vis.css" rel="stylesheet" type="text/css">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+
+    <div id="VIS_draw"></div>
+
+    <script type="text/javascript">
+      var nodes = [{'group': 'Event', 'id': 100, 'label': '@哐哐\u2005'}, {'group': 'Event', 'id': 99, 'label': '关键词'}, {'group': 'Event', 'id': 102, 'label': 'printf'}, {'group': 'Event', 'id': 106, 'label': '代码'}, {'group': 'Event', 'id': 116, 'label': '可以'}, {'group': 'Event', 'id': 108, 'label': '引用'}, {'group': 'Event', 'id': 110, 'label': '消息'}, {'group': 'Event', 'id': 124, 'label': '分析'}, {'group': 'Event', 'id': 132, 'label': '教育'}, {'group': 'Event', 'id': 112, 'label': '函数'}, {'group': 'Event', 'id': 140, 'label': '数字'}, {'group': 'Event', 'id': 154, 'label': '行业'}, {'group': 'Event', 'id': 104, 'label': 'return'}, {'group': 'Event', 'id': 120, 'label': '语言'}, {'group': 'Event', 'id': 198, 'label': '中国'}, {'group': 'Event', 'id': 156, 'label': '介绍'}, {'group': 'Event', 'id': 118, 'label': '实现'}, {'group': 'Event', 'id': 180, 'label': '营销'}, {'group': 'Event', 'id': 122, 'label': '群友'}, {'group': 'Event', 'id': 126, 'label': '应该'}, {'group': 'Event', 'id': 144, 'label': '八字'}, {'group': 'Event', 'id': 128, 'label': '使用'}, {'group': 'Event', 'id': 138, 'label': '需要'}, {'group': 'Event', 'id': 194, 'label': '企业'}, {'group': 'Event', 'id': 196, 'label': '建设'}, {'group': 'Event', 'id': 136, 'label': '循环'}, {'group': 'Event', 'id': 134, 'label': '口吻'}, {'group': 'Event', 'id': 130, 'label': '程序'}, {'group': 'Event', 'id': 146, 'label': '输入'}, {'group': 'Event', 'id': 170, 'label': '评价'}, {'group': 'Event', 'id': 58, 'label': '智慧'}, {'group': 'Event', 'id': 152, 'label': '阶乘'}, {'group': 'Event', 'id': 176, 'label': '推荐'}, {'group': 'Event', 'id': 64, 'label': '发展'}, {'group': 'Event', 'id': 66, 'label': '公司'}, {'group': 'Event', 'id': 68, 'label': '工业'}, {'group': 'Event', 'id': 174, 'label': '问题'}, {'group': 'Event', 'id': 72, 'label': '产品'}, {'group': 'Event', 'id': 74, 'label': '\xa0\xa0'}, {'group': 'Event', 'id': 76, 'label': '软件'}, {'group': 'Event', 'id': 158, 'label': '打印'}, {'group': 'Event', 'id': 150, 'label': '数组'}, {'group': 'Event', 'id': 186, 'label': '方案'}, {'group': 'Event', 'id': 84, 'label': '酒店'}, {'group': 'Event', 'id': 166, 'label': '进行'}, {'group': 'Event', 'id': 88, 'label': '资本'}, {'group': 'Event', 'id': 90, 'label': '传统'}, {'group': 'Event', 'id': 148, 'label': '元素'}, {'group': 'Event', 'id': 184, 'label': '方式'}, {'group': 'Event', 'id': 172, 'label': '修改'}, {'group': 'Event', 'id': 98, 'label': '内容'}, {'group': 'Event', 'id': 199, 'label': '高频词'}, {'group': 'Event', 'id': 114, 'label': 'main'}, {'group': 'Event', 'id': 142, 'label': 'fori'}, {'group': 'Event', 'id': 160, 'label': 'sz'}, {'group': 'Event', 'id': 162, 'label': '时间'}, {'group': 'Event', 'id': 164, 'label': '输出'}, {'group': 'Event', 'id': 168, 'label': '计算'}, {'group': 'Event', 'id': 178, 'label': '比较'}, {'group': 'Event', 'id': 182, 'label': 'factorial'}, {'group': 'Event', 'id': 188, 'label': '交换'}, {'group': 'Event', 'id': 190, 'label': '逆置'}, {'group': 'Event', 'id': 192, 'label': '呲牙'}];
+      var edges = [{'from': 100, 'label': '', 'to': 99}, {'from': 102, 'label': '', 'to': 99}, {'from': 106, 'label': '', 'to': 99}, {'from': 116, 'label': '', 'to': 99}, {'from': 108, 'label': '', 'to': 99}, {'from': 110, 'label': '', 'to': 99}, {'from': 124, 'label': '', 'to': 99}, {'from': 132, 'label': '', 'to': 99}, {'from': 112, 'label': '', 'to': 99}, {'from': 140, 'label': '', 'to': 99}, {'from': 154, 'label': '', 'to': 99}, {'from': 104, 'label': '', 'to': 99}, {'from': 120, 'label': '', 'to': 99}, {'from': 198, 'label': '', 'to': 99}, {'from': 156, 'label': '', 'to': 99}, {'from': 118, 'label': '', 'to': 99}, {'from': 180, 'label': '', 'to': 99}, {'from': 122, 'label': '', 'to': 99}, {'from': 126, 'label': '', 'to': 99}, {'from': 144, 'label': '', 'to': 99}, {'from': 128, 'label': '', 'to': 99}, {'from': 138, 'label': '', 'to': 99}, {'from': 194, 'label': '', 'to': 99}, {'from': 196, 'label': '', 'to': 99}, {'from': 136, 'label': '', 'to': 99}, {'from': 134, 'label': '', 'to': 99}, {'from': 130, 'label': '', 'to': 99}, {'from': 146, 'label': '', 'to': 99}, {'from': 170, 'label': '', 'to': 99}, {'from': 58, 'label': '', 'to': 99}, {'from': 152, 'label': '', 'to': 99}, {'from': 176, 'label': '', 'to': 99}, {'from': 64, 'label': '', 'to': 99}, {'from': 66, 'label': '', 'to': 99}, {'from': 68, 'label': '', 'to': 99}, {'from': 174, 'label': '', 'to': 99}, {'from': 72, 'label': '', 'to': 99}, {'from': 74, 'label': '', 'to': 99}, {'from': 76, 'label': '', 'to': 99}, {'from': 158, 'label': '', 'to': 99}, {'from': 150, 'label': '', 'to': 99}, {'from': 186, 'label': '', 'to': 99}, {'from': 84, 'label': '', 'to': 99}, {'from': 166, 'label': '', 'to': 99}, {'from': 88, 'label': '', 'to': 99}, {'from': 90, 'label': '', 'to': 99}, {'from': 148, 'label': '', 'to': 99}, {'from': 184, 'label': '', 'to': 99}, {'from': 172, 'label': '', 'to': 99}, {'from': 98, 'label': '', 'to': 99}, {'from': 100, 'label': '', 'to': 199}, {'from': 102, 'label': '', 'to': 199}, {'from': 104, 'label': '', 'to': 199}, {'from': 106, 'label': '', 'to': 199}, {'from': 108, 'label': '', 'to': 199}, {'from': 110, 'label': '', 'to': 199}, {'from': 112, 'label': '', 'to': 199}, {'from': 114, 'label': '', 'to': 199}, {'from': 116, 'label': '', 'to': 199}, {'from': 118, 'label': '', 'to': 199}, {'from': 120, 'label': '', 'to': 199}, {'from': 122, 'label': '', 'to': 199}, {'from': 124, 'label': '', 'to': 199}, {'from': 126, 'label': '', 'to': 199}, {'from': 128, 'label': '', 'to': 199}, {'from': 130, 'label': '', 'to': 199}, {'from': 132, 'label': '', 'to': 199}, {'from': 134, 'label': '', 'to': 199}, {'from': 136, 'label': '', 'to': 199}, {'from': 138, 'label': '', 'to': 199}, {'from': 140, 'label': '', 'to': 199}, {'from': 142, 'label': '', 'to': 199}, {'from': 144, 'label': '', 'to': 199}, {'from': 146, 'label': '', 'to': 199}, {'from': 148, 'label': '', 'to': 199}, {'from': 150, 'label': '', 'to': 199}, {'from': 152, 'label': '', 'to': 199}, {'from': 154, 'label': '', 'to': 199}, {'from': 156, 'label': '', 'to': 199}, {'from': 158, 'label': '', 'to': 199}, {'from': 160, 'label': '', 'to': 199}, {'from': 162, 'label': '', 'to': 199}, {'from': 164, 'label': '', 'to': 199}, {'from': 166, 'label': '', 'to': 199}, {'from': 168, 'label': '', 'to': 199}, {'from': 170, 'label': '', 'to': 199}, {'from': 172, 'label': '', 'to': 199}, {'from': 174, 'label': '', 'to': 199}, {'from': 176, 'label': '', 'to': 199}, {'from': 178, 'label': '', 'to': 199}, {'from': 180, 'label': '', 'to': 199}, {'from': 182, 'label': '', 'to': 199}, {'from': 184, 'label': '', 'to': 199}, {'from': 186, 'label': '', 'to': 199}, {'from': 188, 'label': '', 'to': 199}, {'from': 190, 'label': '', 'to': 199}, {'from': 192, 'label': '', 'to': 199}, {'from': 194, 'label': '', 'to': 199}, {'from': 196, 'label': '', 'to': 199}, {'from': 198, 'label': '', 'to': 199}];
+
+      var container = document.getElementById("VIS_draw");
+
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+
+      var options = {
+          nodes: {
+              shape: 'circle',
+              size: 15,
+              font: {
+                  size: 15
+              }
+          },
+          edges: {
+              font: {
+                  size: 10,
+                  align: 'center'
+              },
+              color: 'red',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 1.2}
+              },
+              smooth: {enabled: true}
+          },
+          physics: {
+              enabled: true
+          }
+      };
+
+      var network = new vis.Network(container, data, options);
+
+    </script>
+    </body>
+    </html>
+    
