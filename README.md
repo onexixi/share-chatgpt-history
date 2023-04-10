@@ -17,7 +17,7 @@ Share-ChatGPT-History 是一个开源项目，意在分享和ChatGPT,文言一�
 
 # 使用方式
 
-需要提前准备的环境【python3.10】【[[ltp_data_v3.4.0](https://ltp.ai/download.html)]】
+需要提前准备的环境[python3.10][[ltp_data_v3.4.0](https://ltp.ai/download.html)]
 1.  词云图　
 ```
 python masked.py
