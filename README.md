@@ -1,6 +1,6 @@
 # Share-ChatGPT-History
 
-“Continuously sharing ChatGPT’s Q&A records; 持续分享ChatGPT的问答记录；1w条对话数据；挖掘数据好玩的数据
+Continuously sharing ChatGPT’s Q&A records; 持续分享ChatGPT的问答记录；1w条对话数据；挖掘数据好玩的数据
 
 # 项目介绍
 
@@ -34,9 +34,9 @@ python text_grapher.py
 # 效果图
 
 1) 词云图 
-![image](https://github.com/onexixi/share-chatgpt-history/blob/master/image/wordcloud.png)
+![image](https://github.com/onexixi/share-chatgpt-history/blob/main/image/wordcloud.png)
 2) 知识图谱 
-![image](https://github.com/onexixi/share-chatgpt-history/blob/master/image/know.png)_
+![image](https://github.com/onexixi/share-chatgpt-history/blob/main/image/know.png)
 
 # 总结
 
