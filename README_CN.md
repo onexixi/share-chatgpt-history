@@ -1,6 +1,6 @@
 # Share-ChatGPT-History
 
-“Continuously sharing ChatGPT’s Q&A records; 持续分享ChatGPT的问答记录；1w条对话数据；挖掘数据好玩的数据
+Continuously sharing ChatGPT’s Q&A records; 持续分享ChatGPT的问答记录；1w+对话数据；挖掘数据好玩的数据
 
 # 项目介绍
 
@@ -10,10 +10,11 @@ Share-ChatGPT-History 是一个开源项目，意在分享和ChatGPT,文言一�
 
 | 群名 | 人数 | 对话数据量 |
 | --- | --- | --- |
-| GPT和文言一心讨论群 | 500 | 6000 |
-| AI研讨组 | 500 | 待整理 |
+| GPT和文言一心讨论群 | 500 | 2503 |
+| 对话绘画体验群 | 500 | 3161 |
 | 内容创作 | 500 | 待整理 |
 | 医疗领域 | 500 | 待整理 |
+| 金融领域 | 500 | 待整理 |
 
 # 使用方式
 
