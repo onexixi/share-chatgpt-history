@@ -52,6 +52,6 @@ python text_grapher.py
 
 # Question?
 
-wechat GPT302(备注：github)
+好用的工具站：https://shengfaxiang.top/
 
-想进群玩耍：https://shengfaxiang.top/
+进群玩耍 wechat GPT302(备注：github)
